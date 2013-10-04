@@ -26,7 +26,7 @@ INLINE MOVEMENT                               *capmap-inline*
 
 The following mappings make inline editing less painful.
 
-(Note that the 'omappings' for *cL* and *dL* are less efficient
+(Note that the 'omappings' for 'cL' and 'dL' are less efficient
 than using just 'C' or 'D', but come for free with 'omap', so they are
 included for completeness)
 
