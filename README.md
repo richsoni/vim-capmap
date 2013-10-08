@@ -63,15 +63,6 @@ QK  <C-W>k :q!<cr>
 QJ  <C-W>j :q!<cr>
 ```
 
-
-MISC
-----------------
-
-```vim
-S         :sh<cr> (Enter Shell Mode Quickly)
-<visual>Y "+y     (Quick Copy to clipboard from visual mode)
-```
-
 ## Installation
 
 "If you don't have a preferred installation method, I recommend

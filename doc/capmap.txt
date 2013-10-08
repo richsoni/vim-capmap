@@ -60,9 +60,3 @@ execute that command on the adjacent buffer to that direction.
 *QL*  <C-W>l||:q!|<cr>
 *QK*  <C-W>k||:q!|<cr>
 *QJ*  <C-W>j||:q!|<cr>
-
-
-MISC                                         *capmap-misc*
-
-*S*         |:sh|<cr> (Enter Shell Mode Quickly)
-*<visual>Y* "+y     (Quick Copy to clipboard from visual mode)

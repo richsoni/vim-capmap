@@ -28,9 +28,3 @@ nnoremap QJ <C-W>j:q!<cr>
 nnoremap QQ :q!<cr>
 nnoremap WW :w!<cr>
 nnoremap EE :e!<cr>
-
-"Enter Shell Mode
-nnoremap S :sh<cr>
-
-"Quick Copy
-vnoremap Y "+y
