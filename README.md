@@ -12,11 +12,9 @@ It does nothing fancy, it is just a wrapper for a set of similar keybindings.
 CURRENT BUFFER READ-WRITE-QUIT
 -------------------------------------
 
-The following mappings allow you to read, write and quit with less keystrokes.
+The following mapping allows you to read, quit with less keystrokes.
 ```vim
 QQ  :q!<cr>
-WW  :w!<cr>
-EE  :e!<cr>
 ```
 
 INLINE MOVEMENT
@@ -44,19 +42,16 @@ dH  d0
 ADJACENT BUFFER CLOSING
 -------------------------------
 
-The following mappings allow you to :q! or :wq! adjacent buffers without
+The following mappings allow you to |:q!| adjacent buffers without
 leaving the current buffer.  This is especially useful for 'diff' and
 'quickfix' windows.
 
- 'W' and 'Q' are logical aliases for :wq! and :q!.  Use capital directional movements HJKL to
+Just like 'capmap-current-buffer-read-quit', 'Q' is a logical
+aliases for |:q!|.  Use capital directional movements HJKL to
 execute that command on the adjacent buffer to that direction.
 
 
 ```vim
-WH  <C-W>h :wq!<cr>
-WL  <C-W>l :wq!<cr>
-WK  <C-W>k :wq!<cr>
-WJ  <C-W>j :wq!<cr>
 QH  <C-W>h :q!<cr>
 QL  <C-W>l :q!<cr>
 QK  <C-W>k :q!<cr>

@@ -15,16 +15,10 @@ nnoremap H 0
 vnoremap L g_
 
 "Save and Quit Adjacent Windows
-nnoremap WH <C-W>h:wq!<cr>
-nnoremap WL <C-W>l:wq!<cr>
-nnoremap WK <C-W>k:wq!<cr>
-nnoremap WJ <C-W>j:wq!<cr>
 nnoremap QH <C-W>h:q!<cr>
 nnoremap QL <C-W>l:q!<cr>
 nnoremap QK <C-W>k:q!<cr>
 nnoremap QJ <C-W>j:q!<cr>
+nnoremap QQ :q!<cr>
 
 "Save And Reload Current Window
-nnoremap QQ :q!<cr>
-nnoremap WW :w!<cr>
-nnoremap EE :e!<cr>

@@ -12,14 +12,12 @@ This plugin provides several capital letter mappings that increase
 productivity.  They aim to avoid clobbering default vim functionality.
 
 
-CURRENT BUFFER READ-WRITE-QUIT                *capmap-current-buffer-rwq*
+CURRENT BUFFER QUIT                           *capmap-current-buffer-rwq*
 
-The following mappings allow you to read, write and quit with less keystrokes.
+The following mapping allows you to read, quit with less keystrokes.
 
 
 *QQ*  |:q!|<cr>
-*WW*  |:w!|<cr>
-*EE*  |:e!|<cr>
 
 
 INLINE MOVEMENT                               *capmap-inline*
@@ -43,19 +41,15 @@ included for completeness)
 
 ADJACENT BUFFER CLOSING                      *capmap-adjacent-buffer-closing*
 
-The following mappings allow you to |:q!| or |:wq!| adjacent buffers without
+The following mappings allow you to |:q!| adjacent buffers without
 leaving the current buffer.  This is especially useful for 'diff' and
 'quickfix' windows.
 
-Just like 'capmap-current-buffer-read-write-quit', 'W' and 'Q' are logical
-aliases for |:wq!| and |:q!|.  Use capital directional movements HJKL to
+Just like 'capmap-current-buffer-read-quit', 'Q' is a logical
+aliases for |:q!|.  Use capital directional movements HJKL to
 execute that command on the adjacent buffer to that direction.
 
 
-*WH*  <C-W>h|:wq!|<cr>
-*WL*  <C-W>l|:wq!|<cr>
-*WK*  <C-W>k|:wq!|<cr>
-*WJ*  <C-W>j|:wq!|<cr>
 *QH*  <C-W>h||:q!|<cr>
 *QL*  <C-W>l||:q!|<cr>
 *QK*  <C-W>k||:q!|<cr>
