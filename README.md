@@ -9,36 +9,6 @@ manually add the keybindings, I decided to wrap it in this plugin.
 
 It does nothing fancy, it is just a wrapper for a set of similar keybindings.
 
-CURRENT BUFFER READ-WRITE-QUIT
--------------------------------------
-
-The following mapping allows you to read, quit with less keystrokes.
-```vim
-QQ  :q!<cr>
-```
-
-INLINE MOVEMENT
-----------------------
-
-The following mappings make inline editing less painful.
-
-(Note that the 'omappings' for cL and dL are less efficient
-than using just 'C' or 'D', but come for free with 'omap', so they are
-included for completeness)
-
-
-```vim
-L   g_  (Note 'g_' is similar to $, but does not include the newline)
-H   0
-vL  vg_
-vH  v0
-cL  C
-cH  c0
-dL  D
-dH  d0
-```
-
-
 ADJACENT BUFFER CLOSING
 -------------------------------
 
@@ -46,16 +16,11 @@ The following mappings allow you to |:q!| adjacent buffers without
 leaving the current buffer.  This is especially useful for 'diff' and
 'quickfix' windows.
 
-Just like 'capmap-current-buffer-read-quit', 'Q' is a logical
-aliases for |:q!|.  Use capital directional movements HJKL to
-execute that command on the adjacent buffer to that direction.
-
-
 ```vim
-QH  <C-W>h :q!<cr>
-QL  <C-W>l :q!<cr>
-QK  <C-W>k :q!<cr>
-QJ  <C-W>j :q!<cr>
+ZH  <C-W>h :wq!<cr>
+ZL  <C-W>l :wq!<cr>
+ZK  <C-W>k :wq!<cr>
+ZJ  <C-W>j :wq!<cr>
 ```
 
 ## Installation
